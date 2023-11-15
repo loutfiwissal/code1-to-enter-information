@@ -1,1 +1,1 @@
-<img src="formulaire1.png" width="30px">
+<img src="formulaire1.png">
