@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title> validation des formulaire</title>
+        <meta charset="utf-8">
+        <style>
+            label{display:inline-block;min-width:200px;}
+        </style>
+    </head>
+    <body>
+        <h1>validation of information in HTML:</h1>
+        <form method="post">
+            <label for="prenom">Please enter your first name: </label>
+            <input type="text" name="prenom" id="prenom" maxlength="20" required><br>
+            <label for="mail">Enter your email: </label>
+            <input type="email" name="mail" id="mail" required><br>
+            <label for="tel">Phone number: </label>
+            <input type="tel" name="tel" id="tele" required><br>
+            <input type="submit" value="valider">
+        </form>
+    </body>
+</html>
